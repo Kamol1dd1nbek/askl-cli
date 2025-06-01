@@ -1,0 +1,34 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log
+
+# Local environment
+.env
+.env.*.local
+
+# Lowdb database (agar siz uni saqlayotgan bo‘lsangiz)
+db/local-db.json
+
+# VSCode va boshqa IDE fayllari
+.vscode/
+.idea/
+
+# Mac OS
+.DS_Store
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Runtime
+*.tsbuildinfo
+.cache/
+dist/
+tmp/
+
+documentation.txt

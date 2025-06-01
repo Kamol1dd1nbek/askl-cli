@@ -1,6 +1,9 @@
 {
   "name": "askl",
   "version": "1.0.0",
+  "bin": {
+    "askl": "./bin/askl.js"
+  },
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
